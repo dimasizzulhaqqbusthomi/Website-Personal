@@ -18,17 +18,17 @@ body {
 
 .main-bio-section {
     display: flex;
-    gap: 20px; /* Jarak antara bagian profil dan gambar */
-    padding: 0 20px; /* Padding untuk menjaga jarak dari tepi layar */
+    gap: 20px; 
+    padding: 0 20px; 
 }
 
 .bagian-profil {
     margin-top: -75px;
     position: sticky;
-    top: 20px;
+    top: 50px;
     height: 80vh;
     overflow-y: auto;
-    width: 420px; /* Lebar tetap untuk desktop */
+    width: 420px; 
     padding: 5px;
     box-sizing: border-box;
 }
@@ -100,8 +100,7 @@ body {
 }
 
 .bagian-gambar {
-    flex: 1; /* Mengisi sisa ruang di sebelah kanan */
-    max-width: calc(100% - 400px); /* Sesuaikan dengan lebar bagian profil */
+    width: 720px;
 }
 
 .side-image {
@@ -121,6 +120,134 @@ body {
     object-fit: cover;
 }
 
+.bagian-link {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.bagian-link .head-link {
+    display: inline-block;
+    padding: 8px 8px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: white;
+}
+
+.bagian-link .head-link:hover {
+    background-color: #CAE0BC;
+}
+
+.head-link i {
+    font-size: 20px;
+    color: black;
+}
+
+.text-link {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.socials-space {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+    overflow-x: auto; 
+    max-width: 100%; 
+}
+
+.socials-space {
+    scrollbar-width: none; 
+}
+
+.socials-space::-webkit-scrollbar {
+    display: none; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 220px;
+    background-color: #5b2c19;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    flex-shrink: 0; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #7f3d2e; 
+}
+
+.logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-link i{
+    display: flex;
+    margin: 0;
+    padding: 30px;
+    font-size: 60px;
+    color: #fff;
+}
+
+.text-card {
+    padding: 0 10px 10px;
+    font-style: arial;
+}
+
+.judul-kartu {
+    font-size: 18px;
+    color: #fff; 
+    padding-bottom: 5px;
+}
+
+.deskripsi-card {
+    font-size: 15px;
+    color: #fff; 
+}
+
+.discover-btn {
+    margin-top: 15px;
+    width: 68px;
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #674636; 
+    color: white; 
+    padding: 10px 0; 
+    text-align: center; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.footer-content {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px; 
+}
+
 @media (max-width: 1200px) {
     .profil-banner{
         width: auto;
@@ -129,7 +256,7 @@ body {
     .main-bio-section {
         flex-direction: column;
         align-items: center;
-        gap: 10px; /* Mengurangi jarak antar elemen */
+        gap: 10px; 
         width: auto;
     }
 
@@ -137,7 +264,7 @@ body {
         max-width: 98%;
         width: auto;
         height: auto;
-        position: static; /* Nonaktifkan sticky agar tidak mengganggu */
+        position: static; 
         margin-top: -90px;
         text-align: center;
         margin-left: -40px;
@@ -195,19 +322,32 @@ body {
         max-width: 710px;
         height: auto;
     }
+    
+    .bagian-link {
+        justify-content: center;
+    }
+
+    .footer p {
+        font-size: 12px; 
+    }
+
+    .social-links a {
+        font-size: 18px; 
+        margin: 0 8px; 
+    }
 }
 
 
-/* Media Queries untuk Tablet (maksimal lebar 768px) */
+
 @media (max-width: 530px) {
     .profil-banner{
         width: auto;
     }
     
     .main-bio-section {
-        flex-direction: column; /* Ubah ke column untuk tablet */
+        flex-direction: column; 
         align-items: center;
-        gap: 10px; /* Mengurangi jarak antar elemen */
+        gap: 10px; 
         width: auto;
     }
 
@@ -216,7 +356,7 @@ body {
         width: auto;
         height: auto;
         margin: 0;
-        position: static; /* Nonaktifkan sticky agar tidak mengganggu */
+        position: static; 
         margin-top: -90px;
         
     }
