@@ -415,7 +415,7 @@ body {
 
     .side-image-potrait img {
         width: 100%;
-        max-width: 100%;
+        max-width: 730px;
         height: 350px;
     }
 
