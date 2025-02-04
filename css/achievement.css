@@ -136,6 +136,13 @@ body {
         margin-bottom: 20px;
     }
 
+    .profil-banner .profil-judul {
+        font-size: 36px;
+        height: 110px;
+        letter-spacing: 4px; 
+    }
+
+
     .bagian-gambar {
         width: 100%;
         max-width: 100%;
@@ -163,8 +170,6 @@ body {
 
 }
 
-
-
 @media (max-width: 530px) {
     .profil-banner{
         width: auto;
@@ -176,6 +181,13 @@ body {
         gap: 10px; 
         width: auto;
         margin-bottom: 20px;
+    }
+
+    .profil-banner .profil-judul {
+        font-size: 24px;
+        height: 80px;
+        letter-spacing: 2px;
+        padding: 35px;
     }
 
     .bagian-gambar {
