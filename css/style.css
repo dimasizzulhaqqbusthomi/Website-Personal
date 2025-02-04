@@ -40,7 +40,7 @@ body {
     margin-top: -75px;
     position: sticky;
     top: 50px;
-    height: 120vh;
+    height: 100vh;
     overflow-y: auto;
     width: 420px; 
     padding: 5px;
@@ -356,6 +356,16 @@ body {
         height: auto;
     }
     
+    .side-image-potrait {
+        justify-content: center;
+    }
+
+    .side-image-potrait img {
+        width: 100%;
+        max-width: 710px;
+        height: 350px;
+    }
+
     .bagian-link {
         justify-content: center;
     }
@@ -450,6 +460,17 @@ body {
         max-width: 710px;
         height: auto;
     }
+
+    .side-image-potrait {
+        justify-content: center;
+    }
+
+    .side-image-potrait img {
+        width: 100%;
+        max-width: 710px;
+        height: 350px;
+    }
+
 }
 
 
