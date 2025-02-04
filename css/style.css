@@ -1,12 +1,12 @@
 body {
-    background-color: #451f10;
+    background: linear-gradient(135deg,#009990, #2E5077);
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .profil-banner {
-    background-image: url('https://imagedelivery.net/tqC70bVt8T6GtQUXNsa2-g/2c3bf15a-6a92-4a89-0cc8-2f25cc1ed100/public');
+    background-image: url(../img/arjuno.jpeg);
     background-size: cover;
     height: 170px;
     display: flex;
@@ -15,6 +15,20 @@ body {
     border-radius: 10px;
     width: 98%;
 }
+
+.profil-banner .profil-judul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    width: 100%;
+    height: 120px;
+    letter-spacing: 5px;
+}
+
 
 .main-bio-section {
     display: flex;
@@ -26,7 +40,7 @@ body {
     margin-top: -75px;
     position: sticky;
     top: 50px;
-    height: 80vh;
+    height: 120vh;
     overflow-y: auto;
     width: 420px; 
     padding: 5px;
@@ -51,7 +65,7 @@ body {
 .content {
     max-width: 1200px;
     width: auto;
-    padding: 0 70px;
+    padding-left: 70px;
 }
 
 .title {
@@ -120,6 +134,24 @@ body {
     object-fit: cover;
 }
 
+.side-image-potrait {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image-potrait img {
+    max-width: 100%;
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+
 .bagian-link {
     width: 100%;
     padding-top: 20px;
@@ -170,8 +202,9 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin-left: 10px;
     width: 220px;
-    background-color: #5b2c19;
+    background-color: #A1D6CB;
     border-radius: 20px;
     text-align: center;
     align-items: center;
@@ -183,7 +216,7 @@ body {
 .card:hover {
     transform: scale(1.05); 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
-    background-color: #7f3d2e; 
+    background-color: #FFDE4D; 
 }
 
 .logo-link {
@@ -198,7 +231,7 @@ body {
     margin: 0;
     padding: 30px;
     font-size: 60px;
-    color: #fff;
+    color: #27445D;
 }
 
 .text-card {
@@ -208,13 +241,13 @@ body {
 
 .judul-kartu {
     font-size: 18px;
-    color: #fff; 
+    color: #000; 
     padding-bottom: 5px;
 }
 
 .deskripsi-card {
     font-size: 15px;
-    color: #fff; 
+    color: #000; 
 }
 
 .discover-btn {
@@ -230,7 +263,7 @@ body {
 }
 
 .footer {
-    background-color: #674636; 
+    background-color: #009990; 
     color: white; 
     padding: 10px 0; 
     text-align: center; 
