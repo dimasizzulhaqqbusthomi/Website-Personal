@@ -98,10 +98,25 @@ body {
 }
 
 .social-media .border {
-    padding: 10px;
-    margin: 5px;
+    width: 60px;
+    height: 25px;
+    padding: 3px;
+    margin:  5px;
     background-color: #fff;
-    border-radius: 50%;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.social-media .border h1 {
+    margin-top: 3px;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+
+.social-media a {
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .social-media i {
@@ -110,7 +125,9 @@ body {
 }
 
 .social-media .border:hover {
-    background-color: #CAE0BC;
+    transform: scale(1.05); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #FFDE4D;
 }
 
 .bagian-gambar {
@@ -188,6 +205,11 @@ body {
     gap: 15px;
     overflow-x: auto; 
     max-width: 100%; 
+}
+
+.socials-space a {
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .socials-space {
@@ -303,6 +325,12 @@ body {
         margin-left: -40px;
     }
 
+    .profil-banner .profil-judul {
+        font-size: 36px; /* Ukuran font sedikit lebih kecil */
+        height: 110px; /* Sesuaikan tinggi */
+        letter-spacing: 4px; /* Kurangi spasi antar huruf */
+    }
+
     .image {
         justify-content: start;
         margin-left: 5px;
@@ -402,6 +430,13 @@ body {
         position: static; 
         margin-top: -90px;
         
+    }
+
+    .profil-banner .profil-judul {
+        font-size: 24px;
+        height: 80px;
+        letter-spacing: 2px;
+        padding: 35px;
     }
 
     .image {
