@@ -197,8 +197,6 @@ a {
 @media (max-width: 530px) {
     .profil-banner {
         width: auto;
-        height: 140px;
-        margin: 15px 5px;
     }
     
     .profil-banner .profil-judul {
